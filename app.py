@@ -1,6 +1,6 @@
 import streamlit as st
 import os
-from utils.code_analyzer import (
+from src.analyzer import(
     analyze_code_for_explanation,
     analyze_code_for_bugs,
     analyze_code_for_improvements
